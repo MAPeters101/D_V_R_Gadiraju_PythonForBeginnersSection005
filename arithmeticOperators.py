@@ -26,3 +26,11 @@ print(type(a))
 print(type(b))
 res = int(a) + int(b)
 print(res)
+print(f"Sum of {a} and {b} is {res}")
+
+n = int(input("Enter the value of n to calculate the sum of n integers: "))
+res = (n * (n + 1))/2
+print(f"The sum of {n} integers is {res}")
+
+
+
